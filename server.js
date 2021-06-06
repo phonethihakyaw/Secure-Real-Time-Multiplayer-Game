@@ -163,6 +163,9 @@ function tick() {
       oxygen: oxygen,
       player: playerUpdate
     });
+  
+  // server.js
+app.use(cors({origin: '*'})); //For FCC testing purposes only
 
 
 }
