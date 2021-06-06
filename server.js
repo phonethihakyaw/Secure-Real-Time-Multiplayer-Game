@@ -166,6 +166,9 @@ function tick() {
   
   // server.js
 app.use(cors({origin: '*'})); //For FCC testing purposes only
+  
+  # prevent mime based attacks
+Header set X-Content-Type-Options "nosniff"
 
 
 }
